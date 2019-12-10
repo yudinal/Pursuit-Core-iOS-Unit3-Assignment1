@@ -20,6 +20,8 @@
 		A6A354852399A2E800D1354C /* ContactImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A354842399A2E800D1354C /* ContactImage.swift */; };
 		A6A354872399AF1600D1354C /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A354862399AF1600D1354C /* StockViewController.swift */; };
 		A6A354892399B6B800D1354C /* StockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A354882399B6B800D1354C /* StockData.swift */; };
+		A6A354C5239AF8E300D1354C /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A354C4239AF8E300D1354C /* StockCell.swift */; };
+		A6A354C7239EF07000D1354C /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A354C6239EF07000D1354C /* StockDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		A6A354842399A2E800D1354C /* ContactImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactImage.swift; sourceTree = "<group>"; };
 		A6A354862399AF1600D1354C /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
 		A6A354882399B6B800D1354C /* StockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockData.swift; sourceTree = "<group>"; };
+		A6A354C4239AF8E300D1354C /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
+		A6A354C6239EF07000D1354C /* StockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 			children = (
 				577E5BED21BA8BA10083EB97 /* ViewController.swift */,
 				A6A354862399AF1600D1354C /* StockViewController.swift */,
+				A6A354C6239EF07000D1354C /* StockDetailViewController.swift */,
+				A6A354C4239AF8E300D1354C /* StockCell.swift */,
 				A692F1C223998EC00048E394 /* DetailViewController.swift */,
 				A6A354842399A2E800D1354C /* ContactImage.swift */,
 				A692F1C02398833E0048E394 /* ContactsData.swift */,
@@ -239,9 +245,11 @@
 				A6A354852399A2E800D1354C /* ContactImage.swift in Sources */,
 				A6A354872399AF1600D1354C /* StockViewController.swift in Sources */,
 				577E5BEE21BA8BA10083EB97 /* ViewController.swift in Sources */,
+				A6A354C7239EF07000D1354C /* StockDetailViewController.swift in Sources */,
 				A6A354892399B6B800D1354C /* StockData.swift in Sources */,
 				A692F1C12398833E0048E394 /* ContactsData.swift in Sources */,
 				577E5BEC21BA8BA10083EB97 /* AppDelegate.swift in Sources */,
+				A6A354C5239AF8E300D1354C /* StockCell.swift in Sources */,
 				A692F1C323998EC00048E394 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

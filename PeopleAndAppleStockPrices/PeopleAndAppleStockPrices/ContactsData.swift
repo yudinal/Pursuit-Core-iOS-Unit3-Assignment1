@@ -35,11 +35,7 @@ struct Multimedia: Codable {
     let thumbnail: String
     
 }
-//extension Information {
-//    var medium: Multimedia? {
-//        return picture.medium 
-//    }
-//}
+
 extension Contacts {
     static func getInformation () -> [Information] {
         var information = [Information]()
